@@ -42,8 +42,8 @@ body {
 }
 
 .sub-IntroText{
-    font-size: clamp(3rem, 5vw, 7rem);
+    font-size: clamp(2rem, 4vw, 5rem);
 }
 .sub-IntroTextPara{
-    font-size: clamp(0.5rem, 1vw, 3rem);
+    font-size: clamp(0.5rem, 1vw, 1rem);
 }
