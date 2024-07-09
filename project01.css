@@ -49,54 +49,7 @@ body {
 
 /* ------------------INDEX CSS--------------------------- */
 
-.index-welcome {
-    font-size: clamp(3rem, 5vw, 7rem);
-}
-
-.index-jumpIn{
-    font-size: clamp(1.4rem, 3.7vw, 2.3rem);
-    margin-bottom: 0px;
-}
-.index-jump{
-    margin-top: 0px;
-    font-size: clamp(0.8rem, 1.7vw, 1.3rem); 
-}
-
-[text-split] {
-    opacity: 0;
-}
-
-.index-yesBtn {
-    width: clamp(180px, 93%, 1500px);
-    padding: 5px;
-    background-color: #efefde;
-    border: #efefde;
-    border-radius: 4px;
-    transition-duration: 0.4s;
-
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-}
-
-.index-yesBtn:hover {
-    background-color: rgb(255, 111, 0);
-    color: #efefde;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-}
-
-@keyframes fadeInOpacity {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
+/* background: radial-gradient(circle, #ee7752, #e73c7e, #23a6d5, #23d5ab 93%), transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0; */
 
 /* ------------------VERIFICATION CSS--------------------------- */
 
