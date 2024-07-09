@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background: #272727;
+    margin: 0;
+    overflow-x: hidden;
+    color: #eee;
+}
+
+.bg {
+    position: fixed;
+    width: 200%;
+    height: 200vh;
+    background: radial-gradient(circle, #ee7752, #e73c7e, #23a6d5, #23d5ab 93%), transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    opacity: .6;
+    visibility: visible;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+
+.container {
+    width: 100%;
+    padding: 13%;
+}
+
+.sub-IntroText{
+    font-size: clamp(3rem, 5vw, 7rem);
+}
+.sub-IntroTextPara{
+    font-size: clamp(0.5rem, 1vw, 3rem);
+}
