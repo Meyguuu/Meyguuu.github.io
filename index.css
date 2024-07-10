@@ -60,7 +60,7 @@ body {
 }
 
 .index-ready{
-  font-size: clamp(3.3rem, 7vw, 7rem); /*5vw*/
+  font-size: clamp(3.3rem, 10vw, 5.5rem);  
 }
 
 
