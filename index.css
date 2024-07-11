@@ -51,16 +51,16 @@ body {
 }
 
 .index-jumpIn{
-  font-size: clamp(1.3rem, 3.1vw, 2.6rem);
+  font-size: clamp(1.3rem, 3.1vw, 2.5rem);
   margin-bottom: 0px;
 }
 .index-jump{
   margin-top: 0px;
-  font-size: clamp(0.7rem, 2vw, 1.4rem); 
+  font-size: clamp(0.7rem, 1.7vw, 1.4rem); 
 }
 
 .index-ready{
-  font-size: clamp(3.3rem, 5vw, 7rem);  
+  font-size: clamp(3rem, 10.3vw, 5.7rem);  
 }
 
 
