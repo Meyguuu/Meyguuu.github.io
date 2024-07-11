@@ -56,7 +56,7 @@ body {
 }
 .index-jump{
   margin-top: 0px;
-  font-size: clamp(0.7rem, 1.7vw, 1.4rem); 
+  font-size: clamp(0.7rem, 1.8vw, 1.4rem); 
 }
 
 .index-ready{
